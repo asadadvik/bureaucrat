@@ -6,11 +6,10 @@ body{
 }
 p{
     line-height: 1.7;
-    font-family: 'Libre Baskerville', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 a {
     color: #b52600 !important;
