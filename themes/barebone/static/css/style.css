@@ -7,6 +7,20 @@ body{
 .container{
     max-width: 1160px !important;
 }
+input{
+    padding: 5px !important;
+    margin-bottom: 5px !important;
+    width: 100%;
+}
+.sub-btn{
+    border: 2px solid #b52600;
+    background: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    color: #b52600;
+    font-weight: bold;
+    padding: 3px 20px;
+}
 
 p{
     line-height: 1.7;
