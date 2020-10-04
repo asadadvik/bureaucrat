@@ -7,6 +7,12 @@ body {
 .container {
   max-width: 1160px !important;
 }
+
+.sidebar-form{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
 input {
   padding: 5px !important;
   margin-bottom: 10px !important;
