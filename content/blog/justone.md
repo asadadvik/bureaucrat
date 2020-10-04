@@ -1,5 +1,5 @@
 ---
-title: "Justone"
+title: "Current World Politics Scenario"
 date: 2020-08-24T14:48:01+05:30
 # draft: true
 author: Priya Mewada

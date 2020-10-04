@@ -1,5 +1,5 @@
 ---
-title: "Anotherone"
+title: "This is a graceful title."
 date: 2020-08-24T14:47:08+05:30
 # draft: true
 author: Asad Advik

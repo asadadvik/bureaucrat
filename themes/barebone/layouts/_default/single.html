@@ -1,6 +1,11 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<div class="container" style="max-width: 860px;">
+
+
+<h1 style="color:#b52600; font-weight: 700">{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
 <br><br>
-{{ .Content }}
+<p>{{ .Content }}</p>
+
+</div>
 {{ end }}

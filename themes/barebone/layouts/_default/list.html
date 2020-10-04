@@ -1,12 +1,16 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<div class="container" style="max-width: 860px;">
+<h1 style="font-style: italic; margin-top: 20px;font-family: 'Libre Baskerville';">{{ .Title | singularize}}<span style="color:#b52600;">.</span></h1>
+<p style="font-family: 'Inter';margin-bottom: 30px;">These are the articles that have been written. You can also subscribe to my <a href="/newsletter"> newsletter</a> so that you get all the insightful articles right into your inbox.</p>
+
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
-    <h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ partial "metadata.html" . }}
-    <a class="summary" href="{{ .RelPermalink }}">
-        <p>{{ .Summary }}</p>
-    </a>
+    <h3><a  class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+
+   <p style="font-family: 'Inter'; color: #808080">{{ partial "metadata.html" . }}</p> 
+    <p >{{ .Summary }}</p>
 </p>
+<p style="text-align:center; color: #808080">⸻</p>
 {{ end }}
+</div>
 {{ end }}
