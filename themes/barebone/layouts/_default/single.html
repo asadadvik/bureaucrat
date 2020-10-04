@@ -1,16 +1,13 @@
 {{ define "main" }}
 <div class="row">
- <div class="col-md-9">
+ <div class="col-md-8">
 <h1 style="color:#b52600; font-weight: 700">{{ .Title }}</h1>
 {{ partial "metadata.html" . }}
 <br><br>
 <p>{{ .Content }}</p>
 </div>
-<div class="col-md-3">
-    <div class="sidebar-form" style="background-color:#f3f3f3;padding: 20px;">
-        <h3 style="font-weight: bold;">Subscribe<span style="color:brown; font-weight: bold;">.</span></h3>
-        <p style="background-color:#ffc600;padding: 1px 3px; border-radius: 3px;display:inline-block;"><strong>Articles in your inbox</strong></p>
-    </div>
+<div class="col-md-4">
+    {{ partial "subscribe" . }}
 </div>
 
 </div>

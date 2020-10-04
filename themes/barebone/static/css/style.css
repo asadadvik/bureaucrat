@@ -1,41 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-body{
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    color: #333333;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #333333;
 }
-.container{
-    max-width: 1160px !important;
+.container {
+  max-width: 1160px !important;
 }
-input{
-    padding: 5px !important;
-    margin-bottom: 5px !important;
-    width: 100%;
+input {
+  padding: 5px !important;
+  margin-bottom: 10px !important;
+  width: 100%;
+  color:  #333333;
+  border: 1px solid #808080;
+  border-radius: 3px;
 }
-.sub-btn{
+input:focus {
     border: 2px solid #b52600;
-    background: white;
-    text-transform: uppercase;
-    border-radius: 3px;
-    color: #b52600;
-    font-weight: bold;
-    padding: 3px 20px;
+    outline: none;
+  }
+  input::placeholder{
+      color: #808080;
+  }
+.sub-btn {
+  border: 2px solid #b52600;
+  background: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #b52600;
+  font-weight: 500;
+  padding: 3px 20px;
+}
+.sub-btn:hover{
+    background: #b52600;
+    color: white;
 }
 
-p{
-    line-height: 1.7;
+p {
+  line-height: 1.7;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
 }
 a {
-    color: #b52600 !important;
-    font-weight: 700;
+  color: #b52600 !important;
+  font-weight: 700;
 }
 
 .nav-item > a {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400 !important;
-    color: #333 !important;
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
+  color: #333 !important;
 }
