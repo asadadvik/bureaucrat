@@ -4,6 +4,9 @@ body{
     font-size: 16px;
     color: #333333;
 }
+.container{
+    max-width: 1160px !important;
+}
 
 p{
     line-height: 1.7;
