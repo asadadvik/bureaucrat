@@ -12,6 +12,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 10px;
+    border-radius: 3px;
 }
 input {
   padding: 5px !important;
