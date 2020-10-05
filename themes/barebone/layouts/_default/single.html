@@ -1,9 +1,9 @@
 {{ define "main" }}
 <div class="row">
  <div class="col-md-8">
-<h1 style="color:#b52600; font-weight: 700">{{ .Title }}</h1>
+<h2 class="article-title" style="color:#b52600; font-weight: 700">{{ .Title }}</h2>
 {{ partial "metadata.html" . }}
-<br><br>
+
 <p>{{ .Content }}</p>
 </div>
 <div class="col-md-4">
