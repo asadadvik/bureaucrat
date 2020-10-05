@@ -14,3 +14,5 @@ fields:
 - type: textarea
   name: feature_image
   label: feature_image
+pages:
+- content/blog/this-is-not-about-the-international-relations.md
