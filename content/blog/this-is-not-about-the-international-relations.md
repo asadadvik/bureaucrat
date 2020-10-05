@@ -1,7 +1,6 @@
 +++
 author = "Asad Advik"
 date = 2020-10-04T18:30:00Z
-draft = true
 feature_image = ""
 title = "This is not about the international relations"
 
