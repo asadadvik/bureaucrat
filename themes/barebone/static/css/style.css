@@ -2,7 +2,6 @@
 .navbar-toggler:active, .navbar-toggler:focus {
   outline: 0;
   border: none;
-  -moz-outline-style: none;
 }
 body {
   font-family: "Inter", sans-serif;

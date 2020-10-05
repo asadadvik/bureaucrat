@@ -3,7 +3,25 @@
   <h1 class="title">{{ .Site.Title }}</h1>
 </div>
 
+<p style="text-align:center;margin: 20px auto;">RECENT ARTICLES</p>
 
+
+<div class="row">
+{{ range first 5 (where .Site.RegularPages "Section" "==" "blog")}}
+<div class="col-md-4" style="margin-bottom: 20px;">
+  <h3><a style="text-align: center !important;" class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+ <p style="font-family: 'Inter'; color: #808080">{{ partial "metadata.html" . }}</p> 
+  <p >{{ .Summary | truncate 200 }}</p>
+  <a  href="{{ .RelPermalink }}" style="font-weight: 400;text-decoration: underline;">
+    Continue Reading...
+  </a>
+</div>
+
+{{ end }}
+</div>
+
+
+<hr>
 
 <p>This is the known or unknown world. I don't know. <a href="#">What is this?</a></p>
 {{ end }}
