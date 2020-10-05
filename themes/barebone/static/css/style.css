@@ -25,7 +25,7 @@ input {
   margin-bottom: 10px !important;
   width: 100%;
   color: #333333;
-  border: 1px solid #808080;
+  border: 1px solid #ddd;
   border-radius: 3px;
 }
 input:focus {
@@ -33,8 +33,13 @@ input:focus {
   outline: none;
 }
 input::placeholder {
-  color: #808080;
+  color: #999;
 }
+
+::selection {
+  background: #fff2a8;
+}
+
 .sub-btn {
   border: 2px solid #b52600;
   background: white;
@@ -60,6 +65,7 @@ h4,
 h5,
 h6 {
   font-family: "Libre Baskerville", serif;
+  font-weight: bold;
 }
 a {
   color: #b52600 !important;
