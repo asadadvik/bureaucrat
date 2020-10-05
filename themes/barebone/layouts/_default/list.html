@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="row">
 <div class="col-md-8" >
-<h1 style="font-style: italic; margin-top: 20px;font-family: 'Libre Baskerville';">{{ .Title | singularize}}<span style="color:#b52600;">.</span></h1>
+<h1 style="font-style: italic; margin-top: 10px;font-family: 'Libre Baskerville';">{{ .Title | singularize}}<span style="color:#b52600;">.</span></h1>
 <p style="font-family: 'Inter';margin-bottom: 30px;">These are the articles that have been written. You can also subscribe to my <a href="/newsletter"> newsletter</a> so that you get all the insightful articles right into your inbox.</p>
 
 {{ range .Pages.ByPublishDate.Reverse }}
@@ -14,7 +14,7 @@
 <p style="text-align:center; color: #808080">———</p>
 {{ end }}
 </div>
-<div class="col-md-4">
+<div class="col-md-4 sidebar">
     {{ partial "subscribe" . }}
 </div>
 </div>
